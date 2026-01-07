@@ -1,10 +1,3 @@
-Below is a **clean, professional, industry-ready `README.md`** written **strictly based on your provided files** (`__init__.py`, `auth.py`, `models.py`, `views.py`).
-No fake features, no assumptions — **100% accurate** to your codebase.
-
-You can **copy-paste this directly** into `README.md`.
-
----
-
 # 💸 Spendly – Expense Tracker Web Application
 
 Spendly is a **Flask-based expense tracking web application** that allows users to securely **sign up, log in, and manage personal expense notes**.
@@ -167,15 +160,3 @@ Flask • Backend Development • Web Applications
 ## 📄 License
 
 This project is for **educational and personal use**.
-
----
-
-If you want next:
-
-* **GitHub-ready badges**
-* **Screenshots section**
-* **API documentation**
-* **Deployment guide**
-* **Resume-optimized README**
-
-Just say the word 👍
