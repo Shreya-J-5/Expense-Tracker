@@ -1,8 +1,19 @@
 {% extends "base.html" %} {% block title %}Sign Up{% endblock %} {% block
 content %}
 <form method="POST">
-  <fieldset class="auth-fieldset" style="width: 450px; height: 545px">
+  <fieldset class="auth-fieldset" style="width: 450px; height: 575px">
     <legend class="auth-title" align="center"><h3>Sign Up</h3></legend>
+
+    <div class="form-group">
+      <label for="firstName">Username</label>
+      <input
+        type="text"
+        class="form-control"
+        id="firstName"
+        name="firstName"
+        placeholder="Enter username"
+      />
+    </div>
 
     <div class="form-group">
       <label for="email">Email Address</label>
@@ -14,16 +25,7 @@ content %}
         placeholder="Enter email"
       />
     </div>
-    <div class="form-group">
-      <label for="firstName">First Name</label>
-      <input
-        type="text"
-        class="form-control"
-        id="firstName"
-        name="firstName"
-        placeholder="Enter first name"
-      />
-    </div>
+    
     <div class="form-group">
       <label for="password1">Password</label>
       <input
@@ -35,7 +37,7 @@ content %}
       />
     </div>
     <div class="form-group">
-      <label for="password2">Password (Confirm)</label>
+      <label for="password2">Confirm Password</label>
       <input
         type="password"
         class="form-control"
@@ -46,6 +48,10 @@ content %}
     </div>
     <br />
     <button type="submit" class="btn btn-primary">Submit</button>
+    <div class="text-center mt-3"> Already have an account?
+      <a href="/login" class="text-decoration-underline"
+        >Login</a>
+    </div>
   </fieldset>
 </form>
 <style>
